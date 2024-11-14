@@ -160,7 +160,7 @@ colors_dark: # dark
   beach_color: "#F0E0C0"
   boundary_color: "#880088"
   building_border_color: "#888888"
-  building_color: "#444444"
+  building_color: "#FF0000"
   construction_color: {color: "#CCCCCC", darken: 0.75}
   cycle_color: "#4444EE"
   desert_color: "#F0E0D0"
@@ -225,7 +225,7 @@ colors_dark: # dark
 
 carto_colors:
   building_border_color: {color: building_color, darken: 0.15}
-  building_color: "#d9d0c9"
+  building_color: "#FF0000"
   cemetery_color: "#aacbaf"
   commercial_color: "#f2dad9"
   commercial_border_color: "#d1b2b0"
