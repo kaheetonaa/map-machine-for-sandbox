@@ -49,7 +49,7 @@ class MapConfiguration:
 
     scheme: Scheme
     drawing_mode: DrawingMode = DrawingMode.NORMAL
-    building_mode: BuildingMode = BuildingMode.FLAT
+    building_mode: BuildingMode = BuildingMode.ISOMETRIC
     label_mode: LabelMode = LabelMode.MAIN
     zoom_level: float = 18.0
     overlap: int = 12
