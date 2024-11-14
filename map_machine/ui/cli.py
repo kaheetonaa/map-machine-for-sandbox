@@ -130,7 +130,7 @@ def add_map_arguments(parser: argparse.ArgumentParser) -> None:
     parser.add_argument(
         "--buildings",
         metavar="<mode>",
-        default="flat",
+        default="isometric", #flat
         choices=(mode.value for mode in BuildingMode),
         help="building drawing mode: "
         + ", ".join(mode.value for mode in BuildingMode),
