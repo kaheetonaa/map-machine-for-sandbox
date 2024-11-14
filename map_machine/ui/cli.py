@@ -127,17 +127,18 @@ def add_map_arguments(parser: argparse.ArgumentParser) -> None:
         help="scheme identifier (look for `<id>.yml` file) or path to a YAML "
         "scheme file",
     )
+    #flat
     parser.add_argument(
         "--buildings",
         metavar="<mode>",
-        default="isometric", #flat
+        default="flat", 
         choices=(mode.value for mode in BuildingMode),
         help="building drawing mode: "
         + ", ".join(mode.value for mode in BuildingMode),
     )
     parser.add_argument(
         "--mode",
-        default="normal",
+        default="time",
         metavar="<string>",
         choices=(mode.value for mode in DrawingMode),
         help="map drawing mode: "
