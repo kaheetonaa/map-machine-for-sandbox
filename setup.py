@@ -18,7 +18,7 @@ with Path("README.md").open(encoding="utf-8") as input_file:
     long_description: str = input_file.read()
 
 setup(
-    name="map-machine",
+    name="map-machine-for-sandbox",
     version=__version__,
     packages=[
         "map_machine",
