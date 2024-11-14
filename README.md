@@ -182,7 +182,7 @@ Requirements: Python 3.9.
   * install the Python packages with the command:
 
 ```shell
-pip install git+https://github.com/enzet/map-machine
+pip install git+https://github.com/kaheetonaa/map-machine-for-sandbox.git
 ```
 
 For more detailed instructions, see [instructions](doc/INSTALL.md).
