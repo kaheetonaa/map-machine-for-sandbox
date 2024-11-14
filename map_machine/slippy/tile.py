@@ -113,8 +113,8 @@ class Tile:
 
     def get_file_name(self, directory_name: Path) -> Path:
         """Get tile output SVG file path."""
-        return directory_name / f"tile_{self.zoom_level}/{self.x}/{self.y}.svg"
-        #return directory_name / f"tile_{self.zoom_level}_{self.x}_{self.y}.svg"
+        #return directory_name / f"tile_{self.zoom_level}/{self.x}/{self.y}.svg"
+        return directory_name / f"tile_{self.zoom_level}_{self.x}_{self.y}.svg"
 
     def exists(self, directory_name: Path) -> bool:
         """Check whether the tile is drawn."""
