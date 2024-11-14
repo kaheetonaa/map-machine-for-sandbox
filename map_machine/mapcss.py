@@ -46,7 +46,7 @@ way[building] {
     opacity: 1;
 }
 relation[building] {
-    fill-color: #D8D0C8;
+    fill-color: #FF0000;
     opacity: 1;
 }"""
 
