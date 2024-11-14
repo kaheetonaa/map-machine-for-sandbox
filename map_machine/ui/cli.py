@@ -138,7 +138,7 @@ def add_map_arguments(parser: argparse.ArgumentParser) -> None:
     )
     parser.add_argument(
         "--mode",
-        default="time",
+        default="normal",
         metavar="<string>",
         choices=(mode.value for mode in DrawingMode),
         help="map drawing mode: "
