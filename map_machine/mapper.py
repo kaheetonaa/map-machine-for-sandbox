@@ -138,7 +138,7 @@ class Map:
                         self.svg, occupied, self.configuration.label_mode
                     )
 
-        if self.configuration.show_credit:
+        #if self.configuration.show_credit:
             #self.draw_credits(constructor.flinger.size)
             #remove credit
 
