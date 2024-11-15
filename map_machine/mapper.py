@@ -139,7 +139,8 @@ class Map:
                     )
 
         if self.configuration.show_credit:
-            self.draw_credits(constructor.flinger.size)
+            #self.draw_credits(constructor.flinger.size)
+            #remove credit
 
     def draw_buildings(
         self, constructor: Constructor, use_building_colors: bool
