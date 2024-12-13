@@ -30,6 +30,7 @@ node {
 WAY_CONFIG: str = """
 canvas {
     fill-color: #FFFFFF;
+    fill-opacity: 0;
 }
 way {
     fill-opacity: 1;
